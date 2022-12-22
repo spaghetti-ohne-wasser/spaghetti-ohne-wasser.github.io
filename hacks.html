@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Web Security Hacks</title>
+        <link rel="icon" type="image/png" href="https://spaghetti-ohne-wasser.github.io/StaticWebsite/GitHub.png">
+    </head>
+    <body>
+        <style>
+            body {
+                background-color: #000000;
+                color: #00ff0d;
+                font-family: 'blockzone', monospace;
+            }
+            h1 {
+                font-size: 50px;
+                text-shadow: 1px 1px 2px #00ff0d, 0 0 1em #00ff0d, 0 0 0.2em #00ff0d;
+            }
+            h2 {
+                font-size: 32px;
+                text-shadow: 1px 1px 2px #00ff0d, 0 0 1em #00ff0d, 0 0 0.2em #00ff0d;
+            }
+
+            a {
+                color: #1bc023;
+                font-size: 28px;
+                text-decoration: none;
+                text-shadow: 1px 1px 1px #00ff0d, 0 0 1em #00ff0d, 0 0 0.2em #00ff0d;
+            }
+            a:hover {
+                font-size: 32px;
+            }
+        </style>
+        <h1>
+            Vulnerabilities found
+        </h1>
+        <h2>
+            Reflected Cross-Site-Scripting:
+        </h2>
+        <a href="https://web.archive.org/save/https://www.frankfurt-school.de/home/Solr-Search-Result?queryStr=%3Cscript%3Ealert(document.URL)%3C/script%3E" target="_blank" rel="noopener noreferrer">
+            Frankfurt-School
+        </a>
+        <h2>
+            Subdomain Takeover
+        </h2>
+        <a href="https://web.archive.org/web/20221124191559/https://platform.yonomi.co/" target="_blank" rel="noopener noreferrer">
+            Allegion
+        </a><br>
+        <a href="https://web.archive.org/web/20221214165652/https://www.newsroom.gojek.com/" target="_blank" rel="noopener noreferrer">
+            Gojek
+        </a><br>
+        <a href="https://web.archive.org/web/20221120221243/https://www.press.trustpilot.com/" target="_blank" rel="noopener noreferrer">
+            Trustpilot -> 250$ Bounty
+        </a>
+    </body>
+</html>
